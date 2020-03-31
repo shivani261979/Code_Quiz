@@ -1,0 +1,73 @@
+// How much do you know about finance ? 
+Questions: 
+1. Question 1 of 12
+You've saved $25,000 for a down payment on a house. 
+You plan to buy within a year. Which of the following is the safest place to keep your money?
+- In the safe in your house 
+- Under the mattress 
+- Stocks 
+- Bank Savings Account 
+- Government Bonds and Munis 
+
+Here correct answer is 
+You want money you plan to use within the next three to five years to be safe and easily accessible. Lock it up in a savings or money market account. You won't earn much interest on it with rates so low, but you also won't lose any of it to the volatility of the stock market. 
+You can find search for which accounts are offering the best rates on Bankrate.com.
+
+2. What's the fastest and easiest way to boost your income?
+- Suck up your Boss 
+- Change Organization 
+- Enhance your skills 
+- Adjust your tax withholding 
+- Secondary Job 
+
+Here correct answer is: 
+If you typically get a tax refund each spring (and most of you do), 
+file a new Form W-4 with your employer to increase the number of exemptions you claim — 
+and lower the amount Uncle Sam takes from your paycheck. Try our easy-to-use tax withholding calculator to help you figure the 
+right number for your situation.
+
+3. Which investment offers the highest growth potential for your long-term goals?
+- Keep stocking up gold 
+- Treasury Bonds 
+- Stocks 
+- Money Market Bonds 
+- Real Estate 
+
+Correct Answer is: Stocks 
+The stock market can be a roller coaster ride, 
+but historically, stocks have fared best over the long run. 
+And for long-term goals, you can generally afford to take on more risk in pursuit of a 
+higher return because you have time to recover any short-term losses.
+
+
+4. Mike is unemployed, single, childless, 
+in good health and drives Tesla. Which insurance could he most likely do without?
+- Life insurance
+- Health Insurance 
+- Auto Insurance 
+- Dental Insurance 
+- House Insurance
+
+Correct Answer: 
+You only need life insurance if you have someone depending on you financially. Bob is unwed and childless, so he doesn't need it. 
+owever, he will need health insurance and auto insurance to protect himself against disaster.
+
+5. Which of these accounts or products is secured by the federal government against loss?
+- 401k 
+- 529 
+- Certificate of Deposit 
+- Munis 
+- None of the above 
+
+correct answer; CD 
+A bank CD falls under federal protection if it's FDIC insured. That means up to $250,000 is protected in case a bank goes under, and you get up to $250,000 of insurance at each bank where you buy CDs. Municipal bonds, 
+529 plans, 401(k)s and other investments are not covered. You invest at your own risk.
+
+// Display Question 1 of 5 , 2 of 5 etc. 
+// Timer on top - provide 1 min each , if user enters within the time - Ok , if not present him Bonus question 
+// 80 % score - say is necessary to Pass/grade 
+// If user does not score 80% quiz starts again 
+// Give the option to the user to start the quiz again 
+// Give the option to the user to skip the question and visit later 
+// Total time is 10 minutes 
+// If user pass - some good effects on the page 

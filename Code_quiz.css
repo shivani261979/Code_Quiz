@@ -1,0 +1,95 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    /* background-color: rgba(255,255,255,0.1);
+    background-blend-mode: lighten; */
+    background-image: url(Assets/money.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mywebapp{
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px #aaa;
+        box-shadow: 0 0 10px #aaa;
+}
+.header{
+    position: relative;
+    margin:30px auto;
+    width: 95%;
+    max-width: 750px;
+}
+.header h1{
+    font-size: calc(12px + 1.3vw);
+    font-weight: bold;
+    margin: 20px auto;
+}
+.header h2{
+    font-size: calc(8px + 0.7vw);
+    font-weight: normal;
+    margin:auto;
+    text-align: center;
+}
+#timer {
+    margin:auto;
+    text-align: center;
+}
+.steps{
+    display:none;
+    margin: 10px auto 10px auto;
+    width: 95%;
+    max-width:750px;
+    text-align: left;
+}
+.steps h2{
+    font-size: calc(12px + 0.7vw);
+    margin-bottom: 20px;
+    text-decoration-color: darkviolet;
+}
+.steps ul{
+    margin-left: 30px;
+}
+.steps li {
+    list-style : none;
+}
+.steps label{
+    margin-left: 10px;
+}
+#yourScore{
+    margin:50px auto;
+    text-align: center;
+    font-size: calc(14px + 1.4vw);
+    font-weight: bold;
+}
+.messageBar{
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    height: 40px;
+}
+.bottomToolbar{
+    position: relative;
+    /* bottom: 200px; */
+    margin:10px auto;
+    padding: 10px;
+    text-align: center;
+    /* left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%) */
+}
+.bottomToolbar button{
+    margin-left: 30px;
+}
+
+.error{
+    color: red;
+    font-size: calc(14px + 0.7vw);
+}
+.info {
+    color:green;
+    font-size: calc(14px + 0.7vw);
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> How much do you know about finance?</title>
+    <link rel="stylesheet" href="Code_quiz.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="mywebapp">
+    <div class="header">
+        <h1>Let's see how much you know the basic Finance ?</h1>     
+        <div class="row">
+            <div class="col-6">
+                <h2 id="currentPosition"></h2>
+            </div>
+            <div class="col-6">
+                <h2 id="timer"> </h2> 
+            </div>
+        </div>
+    </div>
+
+    <div class="steps">
+        <h2>You've saved $25,000 for a down payment on a house. You plan to buy within a year. Which of the following is the safest place to keep your money? </h2>
+        <div class="container">  
+            <ul>
+                <li> 
+                    <input type="radio" id="option-1" name="step-1" value="1">
+                    <label for="option-1">In the safe in your House</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-2" name="step-1" value="2">
+                    <label for="option-2">Under the mattress</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-3" name="step-1" value="3">
+                    <label for="option-3">Stocks</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-4" name="step-1" value="4">
+                    <label for="option-4">Bank Savings Account</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-5" name="step-1" value="5">
+                    <label for="option-5">Government Bonds and Munis</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="steps">
+        <h2> What's the fastest and easiest way to boost your income? </h2>
+        <div class="container"> 
+            <ul>
+                <li>
+                    <input type="radio" id="option-1" name="step-2" value="1">
+                    <label for="option-1">Suck up your Boss</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-2" name="step-2" value="2">
+                    <label for="option-2">Change Organization</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-3" name="step-2" value="3">
+                    <label for="option-3">Enhance your skills</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-4" name="step-2" value="4">
+                    <label for="option-4">Adjust your tax withholding</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-5" name="step-2" value="5">
+                    <label for="option-5">Second Job</label>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div class="steps">
+        <h2> Which investment offers the highest growth potential for your long-term goals? </h2>
+        <div class="container"> 
+            <ul>
+                <li>
+                    <input type="radio" id="option-1" name="step-3" value="1">
+                    <label for="option-1">Stock up gold bars</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-2" name="step-3" value="2">
+                    <label for="option-2">Stocks</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-3" name="step-3" value="3">
+                    <label for="option-3">Money Market Bonds</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-4" name="step-3" value="4">
+                    <label for="option-4">Real Estate</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-5" name="step-3" value="5">
+                    <label for="option-5">Treasury Bonds</label>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div class="steps">    
+        <h2> Mike is unemployed, single, childless, 
+            in good health and drives second hand car. Which insurance could he most likely do without?</h2>
+        <div class="container"> 
+            <ul>
+                <li>
+                    <input type="radio" id="option-1" name="step-4" value="1">
+                    <label for="option-1">Life Insurance</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-2" name="step-4" value="2">
+                    <label for="option-2">Health Insurance</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-3" name="step-4" value="3">
+                    <label for="option-3">Auto Insurance</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-4" name="step-4" value="4">
+                    <label for="option-4">Dental Insurance</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-5" name="step-4" value="5">
+                    <label for="option-5">House Insurance</label>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div class="steps">     
+        <h2> Which of these accounts or products is secured by the federal government against loss?</h2>
+        <div class="container"> 
+            <ul>
+                <li>
+                    <input type="radio" id="option-1" name="step-5" value="1">
+                    <label for="option-1">401K Plan</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-2" name="step-5" value="2">
+                    <label for="option-2">529 Plan</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-3" name="step-5" value="3">
+                    <label for="option-3">Certificate of Deposit</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-4" name="step-5" value="4">
+                    <label for="option-4">Munis</label>
+                </li>
+                <li>
+                    <input type="radio" id="option-5" name="step-5" value="5">
+                    <label for="option-5">None of the Above</label>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <div class="steps">  
+        <div id="yourScore"> 
+            Great!You've scored - 
+        </div>
+    </div>
+    <div class="messageBar">
+        <div class="error"></div>
+        <div class="info"></div>
+    </div>
+    <div class="bottomToolbar">
+        <button type="button" id="nextButton" class="btn btn-primary btn-md" onclick="nextQuestion()"> Next question</button>
+        <button type="button" id="skipButton" class="btn btn-secondary btn-md" onclick="skipQuestion()"> Skip question</button>
+    </div>
+</div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="code_quiz.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- // How much do you know about finance ? 
+Questions: 
+1. Question 1 of 12
+You've saved $25,000 for a down payment on a house. 
+You plan to buy within a year. Which of the following is the safest place to keep your money?
+- In the safe in your house 
+- Under the mattress 
+- Stocks 
+- Bank Savings Account 
+- Government Bonds and Munis 
+
+Here correct answer is 
+You want money you plan to use within the next three to five years to be safe and easily accessible. Lock it up in a savings or money market account. You won't earn much interest on it with rates so low, but you also won't lose any of it to the volatility of the stock market. 
+You can find search for which accounts are offering the best rates on Bankrate.com.
+
+2. What's the fastest and easiest way to boost your income?
+- Suck up your Boss 
+- Change Organization 
+- Enhance your skills 
+- Adjust your tax withholding 
+- Secondary Job 
+
+Here correct answer is: 
+If you typically get a tax refund each spring (and most of you do), 
+file a new Form W-4 with your employer to increase the number of exemptions you claim — 
+and lower the amount Uncle Sam takes from your paycheck. Try our easy-to-use tax withholding calculator to help you figure the 
+right number for your situation.
+
+3. Which investment offers the highest growth potential for your long-term goals?
+- Keep stocking up gold 
+- Treasury Bonds 
+- Stocks 
+- Money Market Bonds 
+- Real Estate 
+
+Correct Answer is: Stocks 
+The stock market can be a roller coaster ride, 
+but historically, stocks have fared best over the long run. 
+And for long-term goals, you can generally afford to take on more risk in pursuit of a 
+higher return because you have time to recover any short-term losses.
+
+
+4. Mike is unemployed, single, childless, 
+in good health and drives Tesla. Which insurance could he most likely do without?
+- Life insurance
+- Health Insurance 
+- Auto Insurance 
+- Dental Insurance 
+- House Insurance
+
+Correct Answer: 
+You only need life insurance if you have someone depending on you financially. Bob is unwed and childless, so he doesn't need it. 
+owever, he will need health insurance and auto insurance to protect himself against disaster.
+
+5. Which of these accounts or products is secured by the federal government against loss?
+- 401k 
+- 529 
+- Certificate of Deposit 
+- Munis 
+- None of the above 
+
+correct answer; CD 
+A bank CD falls under federal protection if it's FDIC insured. That means up to $250,000 is protected in case a bank goes under, and you get up to $250,000 of insurance at each bank where you buy CDs. Municipal bonds, 
+529 plans, 401(k)s and other investments are not covered. You invest at your own risk. -->
